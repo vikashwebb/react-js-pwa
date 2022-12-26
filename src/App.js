@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div class="wrapper">
+    <h1>PWA in react js</h1>
+    <p>A progressive web application, commonly known as a progressive web app, is a type of application software delivered through the web, built using common web technologies</p>
+    <a href='https://github.com/vikashwebb/PWA-react'>Source Code</a>
+    <h4>
+    <i>“First, solve the problem. Then, write the code.” – John Johnson</i>
+    </h4>
+     
+   </div>
   );
 }
 
